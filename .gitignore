@@ -1,0 +1,10 @@
+*.pyc
+weight/
+__pycache__
+DATA/*
+**/desktop.ini
+*/desktop.ini
+***/desktop.ini
+****/desktop.ini
+*****/desktop.ini
+*****/desktop.ini
