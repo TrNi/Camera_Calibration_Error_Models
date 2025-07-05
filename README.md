@@ -10,7 +10,7 @@ Annika Hagemann, Moritz Knorr, Holger Janssen, Christoph Stiller
 
 
 ## 🚀 Features
-
+✅ Each function is traceable to specific equations (e.g., `compute_bias_ratio` → Eq. 12) with consistent notation.
 ✅ Estimate systematic bias errors in camera intrinsics & extrinsics (Eq. 11)  
 ✅ Compute bias ratio (Eq. 12) to detect potential model mismatches  
 ✅ Detector noise estimation via robust per-board group splitting (Eq. 10)  
@@ -19,15 +19,6 @@ Annika Hagemann, Moritz Knorr, Holger Janssen, Christoph Stiller
 ✅ Mapping error residuals and expected mapping error (EME) evaluation (Eqs. 22–24)  
 ✅ Modular design with direct correspondence to mathematical formulations in peer-reviewed literature  
 ✅ Easily extendable for distortion models, fisheye, stereo rigs, or multi-camera systems
-
-
-## 📚 Theory
-
-This library implements equations and algorithms described in:
-
-> Hagemann et al., **Inferring Bias and Uncertainty in Camera Calibration** with consistent math and notations.
-
-Each function is traceable to specific equations (e.g., `compute_bias_ratio` → Eq. 12) with consistent notation.
 
 
 
